@@ -12,11 +12,9 @@ public class Loja {
 		try {
 			cliente.comprar(valorProduto);
 			this.conta.creditar(valorProduto);
-		} catch (ExceptionTipo1 e) {
+		} catch (Exception e) {
 			System.err.println(e.getMessage());
-		} catch (ExceptionTipo2 e) {
-			// TODO: handle exception
-		}
+		} 
 	}
 	
 	public String status() {
