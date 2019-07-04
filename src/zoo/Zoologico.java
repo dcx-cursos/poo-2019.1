@@ -16,6 +16,9 @@ public class Zoologico {
 		
 		for (int i = 0; i < animais.length; i++) {
 			animais[i].emitirSom();
+			if(animais[i] instanceof AnimalCorredor) {
+				((AnimalCorredor) animais[i]).correr();
+			}
 		}
 	}
 	
@@ -30,7 +33,5 @@ public class Zoologico {
 		z.adicionaAnimal(4, new Cachorro());
 		
 		z.percorrerJaulas();
-
 	}
-
 }

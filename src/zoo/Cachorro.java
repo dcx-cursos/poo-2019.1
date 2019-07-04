@@ -1,6 +1,6 @@
 package zoo;
 
-public class Cachorro extends Animal {
+public class Cachorro extends AnimalCorredor {
 	
 	public void emitirSom() {
 		System.out.println("Chorrrroooo");

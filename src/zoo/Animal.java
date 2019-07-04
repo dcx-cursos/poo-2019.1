@@ -1,6 +1,6 @@
 package zoo;
 
-public class Animal {
+public class Animal { 
 
 	private String nome;
 	private int idade;
@@ -8,5 +8,8 @@ public class Animal {
 	public void emitirSom() {
 		System.out.println("Animallllll");
 	}
-
+	
+	public boolean ehCorredor() {
+		return false;
+	}
 }
