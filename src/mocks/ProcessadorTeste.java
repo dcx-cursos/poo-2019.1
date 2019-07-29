@@ -1,4 +1,4 @@
-package mock;
+package mocks;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -6,8 +6,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import mock.FonteDestino;
-import mock.FonteOrigem;
+import mocks.FonteDestino;
+import mocks.FonteOrigem;
 
 public class ProcessadorTeste {
 

@@ -1,4 +1,4 @@
-package mock;
+package mocks;
 
 public class Processador  {
 
