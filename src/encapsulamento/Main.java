@@ -20,8 +20,8 @@ public class Main {
 		System.out.println(loja.status());		
 		
 		
-		Class<?> c = Class.forName("Loja");
-		Constructor<?> cons = c.getConstructor(String.class);
+		Class<?> c = Class.forName("encapsulamento.Loja");
+		Constructor<?> cons = c.getConstructor(double.class, double.class);
 		Loja object = (Loja) cons.newInstance(10, 10);
 		System.out.println(object.status());
 		
