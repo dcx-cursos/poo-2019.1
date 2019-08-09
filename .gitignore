@@ -1,4 +1,3 @@
-target/
 *.class
 *.jar
 *.war
@@ -11,3 +10,5 @@ bin
 .classpath
 .project
 .settings
+/.class
+target
