@@ -1,7 +1,5 @@
 package encapsulamento;
 
-import org.omg.PortableServer.ThreadPolicyOperations;
-
 public class ContaCorrente {
 
 	private double saldo;
